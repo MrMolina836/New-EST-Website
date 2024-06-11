@@ -1,11 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>EST Website</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header id="topPage" class="primary-header flex">
+      <div>
+        <div class="logo">East Side Tabernacle</div>
+      </div>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav>
+        <ul
+          data-visible="false"
+          id="primary-navigation"
+          class="primary-navigation flex"
+        >
+          <li class="active">
+            <a href="#"> <span></span>Home </a>
+          </li>
+          <li class="active">
+            <a href="./About.html"> <span></span>About </a>
+          </li>
+          <li class="active">
+            <a href="./Ministries.html"> <span></span>Ministries </a>
+          </li>
+          <li class="active">
+            <a href="./Sermons.html"> <span></span>Sermons </a>
+          </li>
+          <li class="active">
+            <a href="./Offering.html"> <span></span>Offering </a>
+          </li>
+          <li class="active">
+            <a href="./Event.html"> <span></span>Events </a>
+          </li>
+          <li class="active">
+            <a href=""> <span></span>Welcome </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="background__container">
+      <img src="./asset/Home Image.jpg" class="background__image" alt="" />
+      <div class="background__image-overlay-container">
+        <p class="background__image-overlay">God • People • Us</p>
+        <p class="background__image-suboverlay">
+          WELCOME TO EAST SIDE TABERNACLE <br>WE BELIEVE GOD HAS CALLED THIS LOCAL
+          CHURCH TO REPRESENT HIM THROUGH <br> PROCLAIMING THE GOSPEL AND DISCIPLE
+          OUR COMMUNITY <br> COME VISIT US! ALL ARE WELCOMED!
+        </p>
+      </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="location__container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12094.03297484762!2d-73.9928645!3d40.7288408!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25978c0f5d94b%3A0x4349501b940e9eb0!2sEast%20Side%20Tabernacle!5e0!3m2!1sen!2sus!4v1718071035318!5m2!1sen!2sus" width="45%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="location__details">
+                    <h3>Come Join Us For Worship <br> Every Sunday @ 10am</h3>
+                    <p>254 E 2nd St | New York, NY | 10009</p>
+                </div>
+            </div>
+
+            <div class="upcoming__container container">
+                <h2>Upcoming Events</h2>
+                
+                <div class="upcoming__news-container">
+                    <div class="upcoming__news-details">
+                        <img src="./asset/Home Image.jpg" class="news__photo" alt="picnic photo">
+
+                        <div class="news__breakdown">
+                            <h3>Church Picnic</h3>
+
+                            <div class="news__when-where">
+                                <p></p>
+                                <p></p>
+                            </div>
+                            
+                            <p class="news__details">
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+  </body>
 </html>
