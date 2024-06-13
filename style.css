@@ -96,7 +96,7 @@ a {
         top: 0;
         left: 0;
         width: 100%;
-        height: 40%;
+        height: 35%;
         color: whitesmoke;
         display: flex;
         flex-direction: column;
@@ -268,15 +268,17 @@ a {
     align-items: center;
     width: 30%;
     padding: 3rem;
+    border-right: 1px solid white;
 }
 
 .footer__gallary-container h3{
     color: white;
     margin-bottom: 1rem;
+    font-size: 25px;
 }
 
 .gallary__link{
-    
+    width: 300px;
 }
 .footer__logo-container{
     width: 40%;
@@ -299,6 +301,14 @@ a {
 .footer__service-time p{
     font-size: 20px;
 }
+.footer__service-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer__service-icon i{
+    font-size: 1rem;
+}
 
 .footer__location{
     text-align: center;
@@ -315,14 +325,61 @@ a {
 .footer__location p{
     font-size: 20px;
 }
-
+.footer__location i{
+    font-size: 1.2rem;
+}
+.footer__location-icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 .footer__contact-container{
     width: 30%;
     padding: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left: 1px solid white;
+}
+
+.footer__link{
+    color: white;
+}
+
+.footer__link i{
+    font-size: 1.6rem;
+}
+.footer__social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__social-media h3{
+    margin-bottom: 1.2rem;
+    font-size: 25px;
+}
+.social__media-links{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+}
+.footer__contact-icon{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
 }
 
 .F-logo{
     margin: 2rem 0 .6rem 0;
+}
+.fa-phone{
+    transform: rotate(90deg);
 }
 
 /* Small Phones, Tablets, Large smart phones */
