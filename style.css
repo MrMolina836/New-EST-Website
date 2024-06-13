@@ -24,6 +24,11 @@ a {
     list-style: none;
     color: rgb(226, 226, 226);
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.active{
+    cursor: pointer;
 }
 
 .flex {
@@ -60,7 +65,7 @@ a {
     padding-left: 10px;
 }
 
-.sr-only{
+.sr-only {
     border: 0;
     clip: rect(0, 0, 0, 0);
     height: 1px;
@@ -76,6 +81,7 @@ a {
     justify-content: space-between;
     background-color: #000;
     height: 10vh;
+    
 }
 
 .mobile-nav-toggle {
@@ -91,20 +97,18 @@ a {
     padding-right: 25px;
 }
 
-.background__image-overlay-container{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 35%;
-        color: whitesmoke;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-transform: uppercase;
-        text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
-        margin-top: 2rem;
+.background__image-overlay-container {
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
 }
 
 .background__image-overlay{
