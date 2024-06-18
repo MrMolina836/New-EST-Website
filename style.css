@@ -267,6 +267,50 @@ a {
     border-radius: 20px;
 }
 
+.offering__container{
+    min-height: 100vh;
+}
+.offering__subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offering__subcontainer button{
+    border-radius: 50px;
+        padding: .50rem 1rem;
+        font-size: 15px;
+}
+.offering__divided-container{
+    display: flex;
+    gap: 2rem;
+    min-height: 50vh;
+    width: 100%;
+}
+.offering__text-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.offering__text-section h2{
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+.offering__text-section p{
+    text-align: center;
+    line-height: 1.5;
+}
+.offering__qr-section{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offering__qr{
+    width: 200px;
+}
+
 @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation {
         backdrop-filter: blur(1rem);
