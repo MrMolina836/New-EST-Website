@@ -112,13 +112,14 @@ a {
 }
 
 .background__image-overlay{
-    font-size: 5vw;
+    font-size: 10vw;
+        font-weight: 700;
 }
 
 .background__image-suboverlay{
     text-align: center;
     line-height: 2;
-    font-size: 1.3vw;
+    font-size: 2vw;
 }
 
 
@@ -175,6 +176,12 @@ a {
     align-items: center;
     justify-content: center;
 }
+.sermon__title-section p{
+    font-size: 25px;
+}
+.sermon__title-section h2{
+    font-size: 30px;
+}
 .sermon__video-container{
     display: flex;
     gap: 5rem;
@@ -214,7 +221,7 @@ a {
     font-size: 30px;
 }
 .sermon__subVideo-details p{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 2rem;
     line-height: 1.3
 }
@@ -233,6 +240,7 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    font-size: 30px;
 }
 .sermon__recent-container{
     display: flex;
@@ -242,7 +250,7 @@ a {
     justify-content: center;
 }
 .sermon__recent-box{
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
