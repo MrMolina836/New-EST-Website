@@ -177,17 +177,23 @@ a {
 }
 .sermon__video-container{
     display: flex;
-    width: 100%;
-    gap: 1rem;
+    gap: 5rem;
     margin-top: 0;
 }
 .sermon__latest-video{
     width: 60%;
-    height: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: end;
 }
 .sermon__img{
+    width: 80%;
+    height: 100%;
+}
+.sermon__img1{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 .sermon__video-details{
     width: 40%;
@@ -195,15 +201,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .sermon__subVideo-details{
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 }
 .sermon__subVideo-details h3{
     font-size: 30px;
@@ -211,11 +216,12 @@ a {
 .sermon__subVideo-details p{
     font-size: 20px;
     margin-bottom: 2rem;
+    line-height: 1.3
 }
 .sermon__main-btn{
     width: 100%;
     display: flex;
-    justify-content: center;
+    
 }
 .sermon__main-btn button{
     border-radius: 50px;
@@ -225,8 +231,7 @@ a {
 .pass__sermon-container h2{
     width: 100%;
     display: flex;
-    justify-content: start;
-    margin-left: 1rem;
+    justify-content: center;
     margin-bottom: 1rem;
 }
 .sermon__recent-container{
@@ -234,10 +239,10 @@ a {
     height: auto;
     width: 100%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .sermon__recent-box{
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,6 +256,7 @@ a {
 
 .pass__sunday-video{
     width: 100%;
+    border-radius: 20px;
 }
 
 @supports (backdrop-filter: blur(1rem)) {
