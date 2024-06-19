@@ -302,6 +302,7 @@ a {
 .offering__text-section p{
     text-align: center;
     line-height: 1.5;
+    font-size: 20px;
 }
 .offering__qr-section{
     width: 40%;
@@ -323,6 +324,7 @@ a {
 }
 .offering__suboption-container h2{
     margin-top: 2.5rem;
+    font-size: 30px;
 }
 .offering__option-container{
     width: 100%;
@@ -344,6 +346,7 @@ a {
     text-align: center;
     margin-top: 1rem;
     line-height: 1.5;
+    font-size: 20px;
 }
 
 
@@ -487,7 +490,12 @@ a {
     display: flex;
     gap: 2rem;
 }
-
+.news__when-where h3{
+    font-size: 25px;
+}
+.news__when-where p{
+    font-size: 16px;
+}
 .news__details{
     height: 100%;
     padding-right: 1rem;
@@ -497,6 +505,7 @@ a {
     padding: 1rem 2rem;
     border-radius: 30px;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .footer__container{
