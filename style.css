@@ -269,6 +269,7 @@ a {
 
 .offering__container{
     min-height: 100vh;
+    margin-top: 2rem;
 }
 .offering__subcontainer{
     display: flex;
@@ -291,6 +292,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 .offering__text-section h2{
@@ -309,6 +311,50 @@ a {
 }
 .offering__qr{
     width: 200px;
+}
+.offering__options{
+    min-height: 50vh;
+    margin-top: 3rem;
+}
+.offering__suboption-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offering__suboption-container h2{
+    margin-top: 2.5rem;
+}
+.offering__option-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3rem;
+    height: 100%;
+}
+.offering__option-items{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.offering__option-items p{
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 150px 0 100px 0;
+}
+.calendar {
+    position: absolute;
 }
 
 @supports (backdrop-filter: blur(1rem)) {
