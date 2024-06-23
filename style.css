@@ -661,7 +661,7 @@ h2{
 .answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.6s ease;
+    transition: max-height 1.7s ease;
 }
 .answer p {
     padding-top: 1rem;
@@ -669,7 +669,7 @@ h2{
     font-size: 1.4rem;
 }
 .faq.active .answer {
-    max-height: 550px;
+    max-height: 590px;
     animation: fade 1s ease-in-out;
 }
 .faq.active svg {
@@ -1183,5 +1183,49 @@ svg {
         .card .imgBx{
             width: 250px;
             height: 250px;
+        }
+        /*                               Ministries Page                                             */
+        .ministies__sub-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .ministries__image{
+            justify-content: center;
+            width: 100%;
+        }
+        .ministries__details{
+            width: 100%;
+            margin: 3rem 0;
+        }
+        /*                               Sermon Page                                             */
+        .sermon__video-container{
+            flex-direction: column;
+            align-items: center;
+            padding: 5rem 1rem;
+        }
+        .sermon__latest-video{
+            justify-content: center;
+            width: 100%;
+        }
+        .sermon__video-details{
+            width: 100%;
+        }
+        .sermon__subVideo-details{
+            justify-content: center;
+            align-items: center;
+        }
+        .sermon__subVideo-details p{
+            padding: 1rem;
+            text-align: center;
+        }
+        .sermon__main-btn{
+            justify-content: center;
+        }
+        .pass__sermon-container{
+            background-color: #f2f1ef;
+            color: #000;
+        }
+        .sermon__recent-box{
+            width: 100%;
         }
 }
