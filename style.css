@@ -1111,3 +1111,31 @@ svg {
         width: 50%;
     }
 }
+
+@media screen and (max-width: 480px){
+    .background__image-suboverlay{
+        font-size: 14px;
+    }
+    .upcoming__news-details{
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .upcoming__news-details img{
+        margin: 0;
+        width: 50%;        
+    }
+    .news__when-where{
+        text-align: center;        
+    }
+    .news__details{
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    .gallary__link{
+        width: 300px;
+    }
+    .footer__logo-container{
+        width: 50%;
+    }
+}
