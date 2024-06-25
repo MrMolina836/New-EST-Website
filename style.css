@@ -771,7 +771,7 @@ svg {
 }
 .sermon__img1{
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: 20px;
 }
 .sermon__video-details{
@@ -1228,4 +1228,27 @@ svg {
         .sermon__recent-box{
             width: 100%;
         }
+        .sermon__video-container{
+            gap: 0;
+        }
+        /*                               Offering Page                                             */
+        .offering__divided-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .offering__text-section{
+            width: 100%;
+        }
+        .offering__qr-section{
+            margin-bottom: 2rem;
+        }
+        .offering__option-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .offering__option-items{
+            width: 100%;
+        }
+        /*                               Welcome Page                                             */
+
 }
